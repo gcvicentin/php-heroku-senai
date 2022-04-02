@@ -70,7 +70,7 @@
 									<input type="number" id="codigo" name="" class="form-control" value="">
 									<small class="form-text text-muted"><em>Somente números.</em></small>
 								</div>
-								<div class="col col-sm-10">
+								<div class="col col-sm-8">
 									<label class="form-label">Nome do cliente: </label>
 									<input type="text" id="nome" name="nome" class="form-control" value="">
 
