@@ -6,14 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css-ERRADO-DE-PROPOSITO" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="estilo.css">
 
 	<title>::: NetChute - Artigos esportivos. :::</title>
 
-	<script type="text/javascript" src="js/jquery-1.2.6.pack.js"></script>
-	<script type="text/javascript" src="ME-CONSERTE-COM-A-PASTA-CERTA/jquery.maskedinput-1.1.4.pack.js"/></script>
+	<script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
+	<script type="text/javascript" src="jquery.maskedinput-1.1.4.pack.js"/></script>
 
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -64,49 +64,51 @@
 
 					<form name="frm" id="frm" action="index-errado-que-vai-para-um-lugar-que-nao-existe.php" method="post">
 
-					<div class="row row g-2">
-  						<div class="col col-sm">
-							<label class="form-label">Código: </label
-							<input type="number" id="codigo" name="" class="form-control" value="">
-							<small class="form-text text-muted"><em>Somente números.</em></small>
-						</div>
-						<div class="col col-sm-10">
-							<label class="form-label">Nome do cliente: </label>
-							<input type="text" id="nome" name="nome" class="form-control" value="">
+							<div class="row row g-2">
+								<div class="col col-sm">
+									<label class="form-label">Código: </label
+									<input type="number" id="codigo" name="" class="form-control" value="">
+									<small class="form-text text-muted"><em>Somente números.</em></small>
+								</div>
+								<div class="col col-sm-10">
+									<label class="form-label">Nome do cliente: </label>
+									<input type="text" id="nome" name="nome" class="form-control" value="">
 
-						</div>
-					</div>
+								</div>
+							</div>
 
-					<div class="row  row g-2">
-  						<div class="col col-sm">
-							<label class="form-label">CPF: </label>
-							<input type="text" id="cpf" name="" class="form-control" value="9999999">
-							<small  class="form-text text-muted"><em>Somente números.</em></small>
-					</div>
-						<div class="col col-sm-8">
-							<label class="form-label">E-mail: </label>
-							<input type="email" id="email" name="" class="form-control" value="">
-							<small id="emailHelp" class="form-text text-muted"><em>email@email.com</em></small>
-						</div>
-					</div>
-						<br>
-						<button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
+							<div class="row  row g-2">
+								<div class="col col-sm">
+									<label class="form-label">CPF: </label>
+									<input type="text" id="cpf" name="" class="form-control" value="9999999">
+									<small  class="form-text text-muted"><em>Somente números.</em></small>
+							</div>
+								<div class="col col-sm-8">
+									<label class="form-label">E-mail: </label>
+									<input type="email" id="email" name="" class="form-control" value="">
+									<small id="emailHelp" class="form-text text-muted"><em>email@email.com</em></small>
+								</div>
+							</div>
+								<br>
+								<button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
 
-						<br><br>
+								<br><br>
 
-						<input type="hidden" value="0" id="acao" name="acao">
-						<input type="hidden" value="-1" id="id" name="id">
+								<input type="hidden" value="0" id="acao" name="acao">
+								<input type="hidden" value="-1" id="id" name="id">
 
-						<script>
-							var dados;
+								<script>
+									var dados;
 
-							function enviar(acao) {
-								document.getElementById('acao').value = acao;
-								document.getElementById("frm").submit();
-							}
-						</script>
+									function enviar(acao) {
+										document.getElementById('acao').value = acao;
+										document.getElementById("frm").submit();
+									}
+								</script>
 
-						</div>
+							</div>
+			
+					</form>
 
 				</div>
 
